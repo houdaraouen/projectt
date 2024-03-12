@@ -1,0 +1,57 @@
+.main {
+    background:
+      linear-gradient(
+          105deg,
+          rgba(255, 255, 255, 0.2) 39%,
+          rgba(51, 56, 57, 1) 96%
+        ) center center / 400px 200px no-repeat,
+      url(ha.jpg) center no-repeat,
+      rebeccapurple;
+  }
+  table td {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    color: green;
+    
+}
+table td button{
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+table td button.edit{
+border: 1px solid crimson;
+background-color: green;
+color: white;
+}
+table td button.edit:hover{
+    background-color: violet;
+}
+table td button.delete{
+    border: 1px solid red;
+    background-color: rgb( 219 , 19, 19);
+    color: white;
+}
+table td button.delete:hover{
+    background-color: rgb(red, green, blue);
+}
+.add-form {
+    margin-bottom: 30px;
+}
+.add-form input {
+    width: 230px;
+    height: 30px;
+}
+.add-form button{
+    width: 140px;
+    color: white;
+    background-color: rgb(5, 86, 5);
+}
+.add-form button:hover {
+    background-color: rgb(5, 86, 5);
+}
+*{
+    margin: 0;
+    padding: 0;
+  }

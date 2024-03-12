@@ -1,0 +1,42 @@
+
+aside {
+  height: 590px; 
+  width: 160px; 
+  /* position: fixed;  */
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+
+  background-color: #333;
+   color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+  padding: 20px 10px 20px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1f0b42;
+  }
+  
+
+  
+
+
